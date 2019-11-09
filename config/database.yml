@@ -23,7 +23,6 @@ test:
 production:
    adapter: postgresql
    encoding: unicode
-   database: railsgirls_production
+   url: ENV['DATABASE_URL']
    pool: 5
-   username: root
-   password:
+   
